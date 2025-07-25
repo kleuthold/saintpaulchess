@@ -9,6 +9,12 @@ body {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
 body::before {
   content: "";
   position: fixed;
