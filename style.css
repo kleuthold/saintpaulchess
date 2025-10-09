@@ -143,3 +143,20 @@ main {
     font-size: 1.1rem;
   }
 }
+
+/* Indent and style club list */
+main section ul {
+  margin-left: 2em;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+main section ul li {
+  margin-bottom: 0.5em;
+}
+
+main section ul a {
+  color: #2a4d8f;
+  text-decoration: underline;
+  font-weight: 500;
+}
